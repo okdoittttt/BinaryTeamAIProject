@@ -2,14 +2,12 @@
 
 ## 자료
 
----
 시연 영상 : https://www.youtube.com/watch?v=KznXDUn6O5U <br>
 웹 사이트 : https://teambinary22.github.io<br>
 통계(데이터 시각화) 웹사이트 : https://cyber-steer.github.io/capstone/web/management.html   <br>
 
 ## 소개
 
----
 Vision AI를 활용한 동아리방 출입 관리 시스템은 인공지능을 활용하여 실시간으로 이미지를 받아드린 후 저장되어 있는 안면 데이터베이스와 비교하여 사람을 자동으로 식별할 수 있는 시스템 입니다.
 <br><br>
 동시에 동아리방에 출입한 인원들의 데이터를 활용하여 [웹 사이트](https://cyber-steer.github.io/capstone/web/management.html)에 시각화하여 관리자, 회원이 확인할 수 있습니다. 또 관리자는 웹사이트에서 쉽게 회원을 등록, 수정, 삭제, 검색 할 수 있습니다.
@@ -18,7 +16,6 @@ Vision AI를 활용한 동아리방 출입 관리 시스템은 인공지능을 �
 
 ## 주요 서비스
 
----
 - 출입 통제
 - SMS 알림
 - 출입통계 확인
@@ -28,12 +25,10 @@ Vision AI를 활용한 동아리방 출입 관리 시스템은 인공지능을 �
 <br><br>
 ## 시스템 구성도
 
----
 Jetson Nano를 중심으로 도어락을 제어하는 릴레이 모듈, 이미지를 받아오는 카메라, 인공인식 현황을 확인할 수 있는 디스플레이로 구성이 되어 있습니다.
 인공지능이 얼굴인식에 성공한 경우 도어락이 열리게 되며 실패한 경우 관리자의 SMS 알림이 전송되게 됩니다. 모든 데이터들은 [파이어베이스](https://firebase.google.com)에 저장되며 해당 데이터를 바탕으로 웹에서 통계를 보여줍니다.
 ## 주요 기술
 
----
 - Jetson Nano
 - Dlib
 - OpenCV
@@ -63,7 +58,6 @@ pip install opencv-python
 
 ## 소스 리뷰
 
----
 #### 1. 프로젝트를 구현하기 위해 설치되어야 하는 라이브러리 목록
 - dlib
 - face_recognition
@@ -164,8 +158,6 @@ firebse에 저장하기 위해 token, id 등 필요한 요소들을 미리 입�
 </pre>
 
 # Thank you
-
----
 다른 방식으로 설치하고 소스코드를 얻기 위해 개발에 함께한 팀원들([손옥무](https://github.com/okdoittttt), [김건우](https://github.com/Muzi4), [장성익](https://github.com/cyber-steer), [설제혁](https://github.com/SeulJaeHyuk))의 깃허브를 방문하실 수 있습니다.
 <br>
 <br>
